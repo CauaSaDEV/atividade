@@ -15,3 +15,16 @@ p{
     word-spacing: 3px;
     line-height: 1.8
 }
+
+#fundo1{
+    background-color: rgb(130, 140, 150);
+    text-align: center;
+}
+#fundo2{
+    background: linear-gradient(to right, #667eea, #764ba2)
+    no-repeat center center;
+}
+#fundo3{
+    background-attachment: fixed;
+    background-color: rgb(230, 133, 133);
+}
