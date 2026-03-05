@@ -43,3 +43,15 @@ p{
     background-color: blue;
     color: black;
 }
+a.link      {color: rgb(0, 17, 255); text-decoration: none;}
+a.visited   {color: purple;}
+a.hover     {color: orange; text-decoration: underline;}
+a.active    {color: red;}
+
+a.link-destaque:hover{
+    background-color: #fff3cd;
+    background: linear-gradient(to right, #fff3cd, #764ba2);
+}
+
+ul { list-style-type: square; list-style-position: outside; }
+ol { list-style-type: upper-roman; list-style-position: inside; }
