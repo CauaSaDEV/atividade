@@ -55,3 +55,28 @@ a.link-destaque:hover{
 
 ul { list-style-type: square; list-style-position: outside; }
 ol { list-style-type: upper-roman; list-style-position: inside; }
+
+button{
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+form{
+    box-shadow: 4px 4px 10px;
+    background-color: rgb(240, 116, 116);
+}
+input:focus {
+    border-color: blue; box-shadow:  0 0 6px blue;
+}
+button :hover{
+    background-color: #0056b3;
+}
+input, textarea, select {
+background-color: #fff;
+color: #333;
+border: 1px solid #bbb;
+border-radius: 6px; 
+transition: border-color 0.3s ease; 
+}
